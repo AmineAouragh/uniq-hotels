@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Uniq Hotels | Unique and Unusual Hotels</title>
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,400;1,700;1,900&display=swap');
+        </style>
+    </head>
+    <body>
+        <div id="navigation">
+          <nav id="topnav">
+            <img id="logo" width="118" height="50" src="assets/images/logo.png" alt="Uniq Hotels Logo" />
+            <ul id="navlist">
+                <li class="nav-list-item">
+                    <a>Home</a>
+                </li>
+                <li class="nav-list-item">
+                    <a>Blog</a>
+                </li>
+                <li class="nav-list-item">
+                    <a>Locations / Near me</a>
+                </li>
+                <li class="nav-list-item">
+                    <a>Hotel Categories</a>
+                </li>
+                <li class="nav-list-item">
+                    <a>About</a>
+                </li>
+                <button id="login_btn">Login/ Sign up</button>
+                <button id="contact_btn">Contact</button>
+            </ul>
+          </nav>
+        </div>
+        <section id="heading">
+            <div id="hero">
+              <h1>Unique and Unusual Hotels</h1>
+              <p id="tagline">Discover and dream your way through our selection of stunning, unique, and unusual hotels from around the world, all revealed in High Definition</p>
+              <div id="search">
+                <input type="text" id="search_input" placeholder="Find a place, hotel or location..." />
+                <button id="search_btn">Search</button>
+              </div>
+            </div>
+        </section>
+        <section id="blogs-section">
+            <div id="blogs-section-header">
+              <h2>Most Popular Blog Posts</h2>
+              <button class="explore_btn">Explore all posts</button>
+            </div>
+            <div id="blogs-container">
+                <div class="post-item">
+                    <img height="286" class="thumbnail" width="450" alt="pic" src="assets/images/be95d95d877bcbb31d4218cda8f1df39.png" />
+                    <h3>Hotels Overlooking Central Park</h3>
+                    <p class="excerpt">If you dream of enjoying a sunset view of Central Park from your room, here are 16 hotels that offer this option. This article has the complete list of hotels...</p>
+                </div>
+                <div class="post-item">
+                    <img height="286" width="450" class="thumbnail" alt="pic" src="assets/images/40a2f71284d1840fabf5b4f92251c316.png" />
+                    <h3>Top Unique Hotels in 2024</h3>
+                    <p class="excerpt">Are you lost among the thousands of listings on Uniq Hotels? In this article, we have picked the best hotels to stay at in 2024. Explore the world's...</p>
+                </div>
+                <div class="post-item">
+                    <img height="286" width="450" class="thumbnail" alt="pic" src="assets/images/8beaf5461b1049577659f13fbbdb588c.png" />
+                    <h3>Tokyo Capsule Hotels for Couples</h3>
+                    <p class="excerpt">While Japan looks pretty modern on the surface, it's conservative in many areas. Most of its quirky capsule hotels have gender-segregated...</p>
+                </div>
+                <div class="post-item">
+                    <img height="286" width="450" class="thumbnail" alt="pic" src="assets/images/09b0ce274a05aeab402969d60afb606f.png" />
+                    <h3>15 Cool and Unique Hotels in NewWork City</h3>
+                    <p class="excerpt">New York City, famed for its iconic skyline, vibrant culture, and endless opportunities, is also home to some of the world's coolest and most unique hotels...</p>
+                </div>
+                <div class="post-item">
+                    <img height="286" width="450" class="thumbnail" alt="pic" src="assets/images/a5118e5e15e3083059b325b8e76e0563.png" />
+                    <h3>5 Star Hotel Room</h3>
+                    <p class="excerpt">This article covers the following questions: What is a 5-star hotel room? What does it look like? What are the criteria and requirements? The hotel...</p>
+                </div>
+                <div class="post-item">
+                    <img height="286" width="450" class="thumbnail" alt="pic" src="assets/images/fad685952d30d1aacf4ed0b533dbbf58.png" />
+                    <h3>The Best Hotel Bars in Bar Harbor, Maine</h3>
+                    <p class="excerpt">Maine is the easternmost state of the US, bordering Canada from the North. Its got a beautiful and rugged coastline and a forested landscape...</p>
+                </div>
+            </div>
+        </section>
+        <hr class="horizontal-separator" />
+        <section id="hotels-section">
+            <div id="hotels-section-header">
+                <h2>New Hotels</h2>
+                <button class="explore_btn">Explore all hotels</button>
+            </div>
+            <div id="hotels-container">
+                <div class="hotel-item">
+                    <img src="assets/images/schloss-elmau.png" class="thumbnail" alt="Schloss Elmau" width="450" height="286" />
+                    <h3>Schloss Elmau</h3>
+                    <div class="hotel-location">
+                        <img src="assets/icons/location.png" alt="Location icon" height="15" width="11" />
+                        <p class="location">
+                            <span>Ostuni</span>, <span>Italy</span>, <span>West Europe</span>
+                        </p>
+                    </div>
+                    <p class="desc">New York City, famed for its iconic skyline, vibrant culture, and endless opportunities, is also home to some of the world's coolest and most unique hotels...</p>
+                    <div class="tags">
+                        <button class="tag">Eco-Friendly</button>
+                        <button class="tag">Industrial</button>
+                        <button class="tag">Traditional</button>
+                    </div>
+                </div>
+                <div class="hotel-item">
+                    <img src="assets/images/inara-camp.png" class="thumbnail" alt="Inara Camp" width="450" height="286" />
+                    <h3>Inara Camp</h3>
+                    <div class="hotel-location">
+                        <img src="assets/icons/location.png" alt="Location icon" height="15" width="11" />
+                        <p class="location">
+                            <span>Ostuni</span>, <span>Italy</span>, <span>West Europe</span>
+                        </p>
+                    </div>
+                    <p class="desc">New York City, famed for its iconic skyline, vibrant culture, and endless opportunities, is also home to some of the world's coolest and most unique hotels...</p>
+                    <div class="tags">
+                        <button class="tag">Industrial</button>
+                        <button class="tag">Traditional</button>
+                    </div>
+                </div>
+                <div class="hotel-item">
+                    <img src="assets/images/hobitennango.png" class="thumbnail" alt="Hobitennango" width="450" height="286" />
+                    <h3>Hobitennango</h3>
+                    <div class="hotel-location">
+                        <img src="assets/icons/location.png" alt="Location icon" height="15" width="11" />
+                        <p class="location">
+                            <span>Antigua</span>, <span>Guatemala</span>, <span>Central America</span>
+                        </p>
+                    </div>
+                    <p class="desc">New York City, famed for its iconic skyline, vibrant culture, and endless opportunities, is also home to some of the world's coolest and most unique hotels...</p>
+                    <div class="tags">
+                        <button class="tag">Eco-Friendly</button>
+                        <button class="tag">Industrial</button>
+                        <button class="tag">Traditional</button>
+                    </div>
+                </div>
+                <div class="hotel-item">
+                    <img src="assets/images/nusfjord-arctic-resort.png" class="thumbnail" alt="Nusfjord Arctic Resort" width="450" height="286" />
+                    <h3>Nusfjord Arctic Resort</h3>
+                    <div class="hotel-location">
+                        <img src="assets/icons/location.png" alt="Location icon" height="15" width="11" />
+                        <p class="location">
+                            <span>Ostuni</span>, <span>Italy</span>, <span>West Europe</span>
+                        </p>
+                    </div>
+                    <p class="desc">New York City, famed for its iconic skyline, vibrant culture, and endless opportunities, is also home to some of the world's coolest and most unique hotels...</p>
+                    <div class="tags">
+                        <button class="tag">Industrial</button>
+                        <button class="tag">Traditional</button>
+                    </div>
+                </div>
+                <div class="hotel-item">
+                    <img src="assets/images/jo-joe-vienna.png" class="thumbnail" alt="Jo&Joe Vienna" width="450" height="286" />
+                    <h3>Jo&Joe Vienna</h3>
+                    <div class="hotel-location">
+                        <img src="assets/icons/location.png" alt="Location icon" height="15" width="11" />
+                        <p class="location">
+                            <span>Ostuni</span>, <span>Italy</span>, <span>West Europe</span>
+                        </p>
+                    </div>
+                    <p class="desc">New York City, famed for its iconic skyline, vibrant culture, and endless opportunities, is also home to some of the world's coolest and most unique hotels...</p>
+                    <div class="tags">
+                        <button class="tag">Eco-Friendly</button>
+                        <button class="tag">Industrial</button>
+                        <button class="tag">Traditional</button>
+                    </div>
+                </div>
+                <div class="hotel-item">
+                    <img src="assets/images/grand-park-hotel-rovinj.png" class="thumbnail" alt="Grand Park Hotel Rovinj" width="450" height="286" />
+                    <h3>Grand Park Hotel Rovinj</h3>
+                    <div class="hotel-location">
+                        <img src="assets/icons/location.png" alt="Location icon" height="15" width="11" />
+                        <p class="location">
+                            <span>Antigua</span>, <span>Guatemala</span>, <span>Central America</span>
+                        </p>
+                    </div>
+                    <p class="desc">New York City, famed for its iconic skyline, vibrant culture, and endless opportunities, is also home to some of the world's coolest and most unique hotels...</p>
+                    <div class="tags">
+                        <button class="tag">Eco-Friendly</button>
+                        <button class="tag">Industrial</button>
+                        <button class="tag">Traditional</button>
+                    </div>
+                </div>
+                <div class="hotel-item">
+                    <img src="assets/images/atlanta-marriott-marquis.png" class="thumbnail" alt="Atlanta Marriott Marquis" width="450" height="286" />
+                    <h3>Atlanta Marriott Marquis</h3>
+                    <div class="hotel-location">
+                        <img src="assets/icons/location.png" alt="Location icon" height="15" width="11" />
+                        <p class="location">
+                            <span>Ostuni</span>, <span>Italy</span>, <span>West Europe</span>
+                        </p>
+                    </div>
+                    <p class="desc">New York City, famed for its iconic skyline, vibrant culture, and endless opportunities, is also home to some of the world's coolest and most unique hotels...</p>
+                    <div class="tags">
+                        <button class="tag">Eco-Friendly</button>
+                        <button class="tag">Industrial</button>
+                        <button class="tag">Traditional</button>
+                    </div>
+                </div>
+                <div class="hotel-item">
+                    <img src="assets/images/grand-resort-bad-ragaz.png" class="thumbnail" alt="Grand Resort Bad Ragaz" width="450" height="286" />
+                    <h3>Grand Resort Bad Ragaz</h3>
+                    <div class="hotel-location">
+                        <img src="assets/icons/location.png" alt="Location icon" height="15" width="11" />
+                        <p class="location">
+                            <span>Ostuni</span>, <span>Italy</span>, <span>West Europe</span>
+                        </p>
+                    </div>
+                    <p class="desc">New York City, famed for its iconic skyline, vibrant culture, and endless opportunities, is also home to some of the world's coolest and most unique hotels...</p>
+                    <div class="tags">
+                        <button class="tag">Industrial</button>
+                        <button class="tag">Traditional</button>
+                    </div>
+                </div>
+                <div class="hotel-item">
+                    <img src="assets/images/paragraph-resort.png" class="thumbnail" alt="Paragraph Resort" width="450" height="286" />
+                    <h3>Paragraph Resort</h3>
+                    <div class="hotel-location">
+                        <img src="assets/icons/location.png" alt="Location icon" height="15" width="11" />
+                        <p class="location">
+                            <span>Antigua</span>, <span>Guatemala</span>, <span>Central America</span>
+                        </p>
+                    </div>
+                    <p class="desc">New York City, famed for its iconic skyline, vibrant culture, and endless opportunities, is also home to some of the world's coolest and most unique hotels...</p>
+                    <div class="tags">
+                        <button class="tag">Industrial</button>
+                        <button class="tag">Traditional</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="popular-hotels">
+            <div id="popular-hotels-header">
+                <h2>Most Popular Hotels</h2>
+            </div>
+            <div id="popular-hotels-container">
+                <div class="">
+                    <img src="assets/images/nusfjord-arctic-resort.png" class="thumbnail" alt="Nusfjord Arctic Resort" width="420" height="266" />
+                    <h3>Nusfjord Arctic Resort</h3>
+                    <div class="hotel-location">
+                        <img src="assets/icons/location.png" alt="Location icon" height="15" width="11" />
+                        <p class="location">
+                            <span>Ostuni</span>, <span>Italy</span>, <span>West Europe</span>
+                        </p>
+                    </div>
+                    <p class="desc">New York City, famed for its iconic skyline, vibrant culture, and endless opportunities, is also home to some of the world's coolest and most unique hotels...</p>
+                    <div class="tags">
+                        <button class="tag">Industrial</button>
+                        <button class="tag">Traditional</button>
+                    </div>
+                </div>
+                <div>
+                    <img src="assets/images/jo-joe-vienna.png" class="thumbnail" alt="Jo&Joe Vienna" width="420" height="266" />
+                    <h3>Jo&Joe Vienna</h3>
+                    <div class="hotel-location">
+                        <img src="assets/icons/location.png" alt="Location icon" height="15" width="11" />
+                        <p class="location">
+                            <span>Ostuni</span>, <span>Italy</span>, <span>West Europe</span>
+                        </p>
+                    </div>
+                    <p class="desc">New York City, famed for its iconic skyline, vibrant culture, and endless opportunities, is also home to some of the world's coolest and most unique hotels...</p>
+                    <div class="tags">
+                        <button class="tag">Eco-Friendly</button>
+                        <button class="tag">Industrial</button>
+                        <button class="tag">Traditional</button>
+                    </div>
+                </div>
+                <div>
+                    <img src="assets/images/grand-park-hotel-rovinj.png" class="thumbnail" alt="Grand Park Hotel Rovinj" width="420" height="266" />
+                    <h3>Grand Park Hotel Rovinj</h3>
+                    <div class="hotel-location">
+                        <img src="assets/icons/location.png" alt="Location icon" height="15" width="11" />
+                        <p class="location">
+                            <span>Antigua</span>, <span>Guatemala</span>, <span>Central America</span>
+                        </p>
+                    </div>
+                    <p class="desc">New York City, famed for its iconic skyline, vibrant culture, and endless opportunities, is also home to some of the world's coolest and most unique hotels...</p>
+                    <div class="tags">
+                        <button class="tag">Eco-Friendly</button>
+                        <button class="tag">Industrial</button>
+                        <button class="tag">Traditional</button>
+                    </div>
+                </div>
+                <div class="">
+                    <img src="assets/images/nusfjord-arctic-resort.png" class="thumbnail" alt="Nusfjord Arctic Resort" width="420" height="266" />
+                    <h3>Nusfjord Arctic Resort</h3>
+                    <div class="hotel-location">
+                        <img src="assets/icons/location.png" alt="Location icon" height="15" width="11" />
+                        <p class="location">
+                            <span>Ostuni</span>, <span>Italy</span>, <span>West Europe</span>
+                        </p>
+                    </div>
+                    <p class="desc">New York City, famed for its iconic skyline, vibrant culture, and endless opportunities, is also home to some of the world's coolest and most unique hotels...</p>
+                    <div class="tags">
+                        <button class="tag">Industrial</button>
+                        <button class="tag">Traditional</button>
+                    </div>
+                </div>
+                <div>
+                    <img src="assets/images/jo-joe-vienna.png" class="thumbnail" alt="Jo&Joe Vienna" width="420" height="266" />
+                    <h3>Jo&Joe Vienna</h3>
+                    <div class="hotel-location">
+                        <img src="assets/icons/location.png" alt="Location icon" height="15" width="11" />
+                        <p class="location">
+                            <span>Ostuni</span>, <span>Italy</span>, <span>West Europe</span>
+                        </p>
+                    </div>
+                    <p class="desc">New York City, famed for its iconic skyline, vibrant culture, and endless opportunities, is also home to some of the world's coolest and most unique hotels...</p>
+                    <div class="tags">
+                        <button class="tag">Eco-Friendly</button>
+                        <button class="tag">Industrial</button>
+                        <button class="tag">Traditional</button>
+                    </div>
+                </div>
+                <div>
+                    <img src="assets/images/grand-park-hotel-rovinj.png" class="thumbnail" alt="Grand Park Hotel Rovinj" width="420" height="266" />
+                    <h3>Grand Park Hotel Rovinj</h3>
+                    <div class="hotel-location">
+                        <img src="assets/icons/location.png" alt="Location icon" height="15" width="11" />
+                        <p class="location">
+                            <span>Antigua</span>, <span>Guatemala</span>, <span>Central America</span>
+                        </p>
+                    </div>
+                    <p class="desc">New York City, famed for its iconic skyline, vibrant culture, and endless opportunities, is also home to some of the world's coolest and most unique hotels...</p>
+                    <div class="tags">
+                        <button class="tag">Eco-Friendly</button>
+                        <button class="tag">Industrial</button>
+                        <button class="tag">Traditional</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="accomodations">
+            <div id="accomodations-section">
+                <div id="accomodations-section-header">
+                    <h2 id="accomodation-heading">Types of Accommodations</h2>
+                    <button class="explore_btn">Explore all types</button>
+                </div>
+                <div id="accomodations-container">
+                    <div>
+                        <img src="assets/images/airplane.png" class="thumbnail" alt="Airplane" width="337" height="207" />
+                        <h3 class="accomodation-h3">Airplane</h3>
+                    </div>
+                    <div>
+                        <img src="assets/images/capsule.png" class="thumbnail" alt="Capsule" width="337" height="207" />
+                        <h3 class="accomodation-h3">Capsule</h3>
+                    </div>
+                    <div>
+                        <img src="assets/images/concept.png" class="thumbnail" alt="Concept" width="337" height="207" />
+                        <h3 class="accomodation-h3">Concept</h3>
+                    </div>
+                    <div>
+                        <img src="assets/images/train.png" class="thumbnail" alt="Train" width="337" height="207" />
+                        <h3 class="accomodation-h3">Train</h3>
+                    </div>
+                    <div>
+                        <img src="assets/images/animal.png" class="thumbnail" alt="Animal" width="337" height="207" />
+                        <h3 class="accomodation-h3">Animal</h3>
+                    </div>
+                    <div>
+                        <img src="assets/images/jail.png" class="thumbnail" alt="Jail" width="337" height="207" />
+                        <h3 class="accomodation-h3">Jail</h3>
+                    </div>
+                    <div>
+                        <img src="assets/images/fairytale.png" class="thumbnail" alt="Fairytale" width="337" height="207" />
+                        <h3 class="accomodation-h3">Fairytale</h3>
+                    </div>
+                    <div>
+                        <img src="assets/images/underwater.png" class="thumbnail" alt="Underwater" width="337" height="207" />
+                        <h3 class="accomodation-h3">Underwater</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="recent-articles">
+            <!--TODO: Should pull latest 6 articles-->
+            <h2 id="recent-articles-h2">Recent Articles</h2>
+            <div id="recent-posts-container">
+                <div class="post-item">
+                    <img height="286" class="thumbnail" width="450" alt="pic" src="assets/images/be95d95d877bcbb31d4218cda8f1df39.png" />
+                    <h3>Hotels Overlooking Central Park</h3>
+                    <p class="excerpt">If you dream of enjoying a sunset view of Central Park from your room, here are 16 hotels that offer this option. This article has the complete list of hotels...</p>
+                </div>
+                <div class="post-item">
+                    <img height="286" width="450" class="thumbnail" alt="pic" src="assets/images/40a2f71284d1840fabf5b4f92251c316.png" />
+                    <h3>Top Unique Hotels in 2024</h3>
+                    <p class="excerpt">Are you lost among the thousands of listings on Uniq Hotels? In this article, we have picked the best hotels to stay at in 2024. Explore the world's...</p>
+                </div>
+                <div class="post-item">
+                    <img height="286" width="450" class="thumbnail" alt="pic" src="assets/images/8beaf5461b1049577659f13fbbdb588c.png" />
+                    <h3>Tokyo Capsule Hotels for Couples</h3>
+                    <p class="excerpt">While Japan looks pretty modern on the surface, it's conservative in many areas. Most of its quirky capsule hotels have gender-segregated...</p>
+                </div>
+                <div class="post-item">
+                    <img height="286" width="450" class="thumbnail" alt="pic" src="assets/images/09b0ce274a05aeab402969d60afb606f.png" />
+                    <h3>15 Cool and Unique Hotels in NewWork City</h3>
+                    <p class="excerpt">New York City, famed for its iconic skyline, vibrant culture, and endless opportunities, is also home to some of the world's coolest and most unique hotels...</p>
+                </div>
+                <div class="post-item">
+                    <img height="286" width="450" class="thumbnail" alt="pic" src="assets/images/a5118e5e15e3083059b325b8e76e0563.png" />
+                    <h3>5 Star Hotel Room</h3>
+                    <p class="excerpt">This article covers the following questions: What is a 5-star hotel room? What does it look like? What are the criteria and requirements? The hotel...</p>
+                </div>
+                <div class="post-item">
+                    <img height="286" width="450" class="thumbnail" alt="pic" src="assets/images/fad685952d30d1aacf4ed0b533dbbf58.png" />
+                    <h3>The Best Hotel Bars in Bar Harbor, Maine</h3>
+                    <p class="excerpt">Maine is the easternmost state of the US, bordering Canada from the North. Its got a beautiful and rugged coastline and a forested landscape...</p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <img src="assets/images/footer-logo.png" alt="Uniq Hotels Logo" width="95" height="180" />
+            <div id="right">
+            <div id="footer-right">
+                <ul class="footer-links">
+                    <li>
+                        <a>Blog</a>
+                    </li>
+                    <li>
+                        <a>Locations / Near me</a>
+                    </li>
+                    <li>
+                        <a>Hotel Categories</a>
+                    </li>
+                    <li>
+                        <a>Login / Sign Up</a>
+                    </li>
+                </ul>
+                <ul class="footer-links">
+                    <li>
+                        <a>Terms of Service</a>
+                    </li>
+                    <li>
+                        <a>Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a>About</a>
+                    </li>
+                </ul>
+                <div id="footer-contact">
+                    <p>Contact Us</p>
+                    <div id="socials">
+                        <div class="social">
+                            <img src="assets/icons/instagram.png" width="15" height="15" alt="Instagram icon" />
+                        </div>
+                        <div class="social">
+                            <img src="assets/icons/facebook.png" height="14" width="8" alt="Facebook icon" />
+
+                        </div>
+                        <div class="social">
+                            <img src="assets/icons/pinterest.png" width="15" height="20" alt="Pinterest icon" />
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p id="copyright">Established in 2012 UniqHotels.com - Unique and Unusual Hotels</p>
+            </div>
+        </footer>
+    </body>
+</html>
